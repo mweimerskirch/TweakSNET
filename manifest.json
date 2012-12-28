@@ -1,0 +1,26 @@
+{
+
+	"name": "TweakSNET",
+	"version": "0.1",
+	"description": "Chrome extension that tweaks snet.lu by disabling the forced download of PDFs (for transaction details and messages) and lets PDFs open in a new tab using the default Chrome PDF viewer again.",
+
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"https://bcee.snet.lu/*"
+	],
+
+	"background": {
+		"scripts": ["src/background.js"]
+	},
+
+	"content_scripts": [
+		{
+		"matches": ["https://bcee.snet.lu/*"],
+		"js": ["src/contentScript.js"]
+		}
+	],
+
+	"manifest_version": 2
+
+}
