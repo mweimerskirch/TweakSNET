@@ -6,5 +6,5 @@ Preconditions
 
 How to use
 ==========
-* Download source code
+* Download source code (using git or from here: https://github.com/mweimerskirch/TweakSNET/archive/master.zip)
 * In Chrome, open "Tools -> Extensions", select "Load unpacked extension" and browse to wherever you downloaded the source code to.
