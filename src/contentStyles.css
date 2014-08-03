@@ -1,12 +1,19 @@
+/* Alternate row colour so tables are easier to read */
 tr.selectable:nth-child(2n) {
 	background: #e9e9e9;
 }
-
 tr.selectable:hover {
 	background: #9999cc;
 	color: white;
 }
 
+/* Make table rows easier to click by adding some padding */
 tr.selectable td {
 	padding: 5px !important;
+}
+
+/* Make highlighted/selected text visible again */
+::selection {
+	background: rgb(52,51,153);
+	color: white;
 }

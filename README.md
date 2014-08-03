@@ -1,4 +1,8 @@
-Chrome extension that tweaks snet.lu by disabling the forced download of PDFs (for transaction details and messages) and lets PDFs open in a new tab using the default Chrome PDF viewer again.
+Chrome extension that tweaks snet.lu
+* No more forced downloads of PDFs (for transaction details and messages) -> PDFs can be opened in a new tab using the default Chrome PDF viewer again
+* Alternate row colour so tables are easier to read
+* Make table rows easier to click by adding some padding
+* Make highlighted/selected text visible again
 
 Preconditions
 =============

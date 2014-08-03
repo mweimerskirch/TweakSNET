@@ -1,8 +1,8 @@
 {
 
-	"name": "TweakSNET",
-	"version": "0.2",
-	"description": "Chrome extension that tweaks snet.lu by disabling the forced download of PDFs (for transaction details and messages) and lets PDFs open in a new tab using the default Chrome PDF viewer again.",
+	"name": "Tweaks for snet.lu",
+	"version": "1.0",
+	"description": "Chrome extension that tweaks snet.lu. Most importantly, the forced download of PDFs (for transaction details and messages) is disabled, so you can open PDFs in a new tab using the default Chrome PDF viewer again.",
 
 	"permissions": [
 		"webRequest",
